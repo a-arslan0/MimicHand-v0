@@ -14,8 +14,8 @@ This project implements a real-time control system for a 3D-printed robotic hand
 * `MimicHand_Control.py`: Python script for video processing, landmark analysis, and serial communication.
 * `Arduino_prep.ino`: Arduino firmware for PCA9685 PWM control and system initialization.
 * `CAD_Models/`:
-    * `STEP_files/`: Editable 3D models for design modifications.
-    * `STL_files/`: Ready-to-print files for 3D manufacturing.
+    * `STEP_Files/`: Editable 3D models for design modifications.
+    * `STL_Files/`: Ready-to-print files for 3D manufacturing.
 
 ## Hardware Requirements
 * Arduino Uno / Nano
