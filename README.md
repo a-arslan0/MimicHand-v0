@@ -11,7 +11,7 @@ This project implements a real-time control system for a 3D-printed robotic hand
 * CAD Library: Includes a comprehensive set of 3D models in both STEP and STL formats.
 
 ##  Project Structure
-* `MimicHand_Control.py`: Python script for video processing, landmark analysis, and serial communication.
+* `MimicHand_control.py`: Python script for video processing, landmark analysis, and serial communication.
 * `Arduino_prep.ino`: Arduino firmware for PCA9685 PWM control and system initialization.
 * `CAD_Models/`:
     * `STEP_Files/`: Editable 3D models for design modifications.
@@ -27,7 +27,7 @@ This project implements a real-time control system for a 3D-printed robotic hand
 
 
 ##  Calibration
-The finger movement sensitivity can be adjusted in `MimicHand_Control.py` by modifying the interpolation ranges in the `map_finger` function to match specific mechanical limits.
+The finger movement sensitivity can be adjusted in `MimicHand_control.py` by modifying the interpolation ranges in the `map_finger` function to match specific mechanical limits.
 
 ##  License
 This project is licensed under the MIT License.
